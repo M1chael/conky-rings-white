@@ -109,7 +109,7 @@ ${font Michroma:size=10}${color0}${goto 100}${voffset 10}ELDORADO  TODAY
 ${font Play:normal:size=8}${color0}${goto 100}${exec /home/michael/Projects/Ruby/eldorado/today_only.rb -n}
 ${font Play:normal:size=8}${color0}${goto 100}Was: ${exec /home/michael/Projects/Ruby/eldorado/today_only.rb -o} RUR
 ${font Play:normal:size=8}${color0}${goto 100}Now: ${exec /home/michael/Projects/Ruby/eldorado/today_only.rb -p} RUR
-${font Play:normal:size=18}${color0}${goto 200}${voffset -33}${exec /home/michael/Projects/Ruby/eldorado/today_only.rb -d}%
+${font Play:normal:size=18}${color0}${goto 210}${voffset -33}${exec /home/michael/Projects/Ruby/eldorado/today_only.rb -d}%
 ${font Michroma:size=10}${color0}${goto 296}BALANCES
 ${font Play:normal:size=10}${color0}${goto 296}GPB ${font Play:normal:size=10}${goto 370}${execi 300 /home/michael/.conky/TransparentTiles2dayweather/balance}${goto 454}RUR
 ${font Play:normal:size=10}${color0}${goto 296}YAM ${font Play:normal:size=10}${goto 370}${execi 300 /home/michael/.conky/TransparentTiles2dayweather/yam}${goto 454}RUR
